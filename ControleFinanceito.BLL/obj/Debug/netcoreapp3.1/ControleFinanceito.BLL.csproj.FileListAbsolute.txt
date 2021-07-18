@@ -1,0 +1,9 @@
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\bin\Debug\netcoreapp3.1\ControleFinanceito.BLL.deps.json
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\bin\Debug\netcoreapp3.1\ControleFinanceito.BLL.dll
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\bin\Debug\netcoreapp3.1\ControleFinanceito.BLL.pdb
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.csproj.AssemblyReference.cache
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.AssemblyInfoInputs.cache
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.AssemblyInfo.cs
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.csproj.CoreCompileInputs.cache
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.dll
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.pdb
