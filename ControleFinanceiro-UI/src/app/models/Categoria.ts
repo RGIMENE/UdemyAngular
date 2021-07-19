@@ -3,9 +3,9 @@ import {Tipo} from './Tipo';
 export class Categoria{
 
     CategoriaId: number;
-    Nome: string;
+    nome: string;
     Icone: string;
-    TipoId: number;
+    tipoId: number;
     Tipo: Tipo;
 
 }
