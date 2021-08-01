@@ -87,6 +87,9 @@ namespace ControleFinanceiro.API.Controllers
             return CreatedAtAction("GetCategoria", new { id = categoria.CategoriaId }, categoria);
         }
 
+
+
+
         // DELETE: api/Categorias/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Categoria>> DeleteCategoria(int id)
