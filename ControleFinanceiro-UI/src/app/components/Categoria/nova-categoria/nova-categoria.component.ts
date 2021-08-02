@@ -30,8 +30,8 @@ export class NovaCategoriaComponent implements OnInit {
     });
 
     this.formulario = new FormGroup({
-      nome: new FormControl(null),
-      icone: new FormControl(null),
+      Nome: new FormControl(null),
+      Icone: new FormControl(null),
       tipoId: new FormControl(null),
     });
 
