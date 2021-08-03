@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Tipo } from 'src/app/models/Tipo';
 import { TiposService } from 'src/app/services/tipos.service';
 
@@ -11,6 +12,7 @@ import { Router } from '@angular/router';
   templateUrl: './nova-categoria.component.html',
   styleUrls: ['../listagem-categorias/listagem-categorias.component.css'],
 })
+
 export class NovaCategoriaComponent implements OnInit {
 
   formulario: any;
