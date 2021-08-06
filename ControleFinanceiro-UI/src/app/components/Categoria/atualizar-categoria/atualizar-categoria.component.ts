@@ -20,8 +20,6 @@ export class AtualizarCategoriaComponent implements OnInit {
   tipos: Tipo[];
   formulario : any;
   
-
-
   constructor(private router : Router,
               private route : ActivatedRoute,
               private tiposService : TiposService,
@@ -37,9 +35,9 @@ export class AtualizarCategoriaComponent implements OnInit {
     this.categoriasService.PegarCategoriaPeloId(this.categoriaId).subscribe(resultado => {
         this.nomeCategoria = resultado.nome;
         this.formulario = new FormGroup({
-          categoriaId : new FormControl(resultado.CategoriaId),
+          categoriaId : new FormControl(resultado.categoriaId),
           Nome: new FormControl(resultado.nome),
-          Icone : new FormControl(resultado.Icone),
+          Icone : new FormControl(resultado.icone),
           tipoId : new FormControl(resultado.tipoId)
         });
     });
@@ -50,14 +48,16 @@ export class AtualizarCategoriaComponent implements OnInit {
     return this.formulario.controls;
   }
 
+
+  EnviarFormulario(): void {
+    const categoria = this.formulario.value;
+    this.categoriasService.AtualizarCategoria(this.categoriaId, categoria).subscribe((resultado) => {
+      this.router.navigate(['categorias/listagemcategorias']);
+    });
+  }
+
   VoltarListagem() : void{
     this.router.navigate(['categorias/listagemcategorias']);
   }
 
-  AtuFormulario(): void{
-    const categoria = this.formulario.value;
-    this.categoriasService.AtualizarCategoria(this.categoriaId, categoria).subscribe(resultado => {
-      this.router.navigate(['categorias/listagemcategorias']);
-    })
-  }
 }
