@@ -2,10 +2,10 @@
 
     <mat-card>
         <mat-card-header>
-            <mat-card-title><h3>Cadastro de Categorias</h3></mat-card-title>
+            <mat-card-title><h3>Atualizar a Categoria {{nomeCategoria}}</h3></mat-card-title>
         </mat-card-header>
 
-        <form [formGroup]="formulario" (ngSubmit)="EnviarFormulario()">
+        <form [formGroup]="formulario" (ngSubmit)="AtuFormulario()">
 
             <mat-card-content>
 
@@ -38,7 +38,7 @@
 
             <mat-card-actions>
                 <div>
-                    <button type="submit" mat-stroked-button color="primary">Salvar</button>
+                    <button type="submit" mat-stroked-button color="primary">Atualizar</button>
                     <button mat-stroked-button type="button" (click)="VoltarListagem()">Voltar</button>
                 </div>
             </mat-card-actions>
