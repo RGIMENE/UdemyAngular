@@ -6,7 +6,7 @@ import { Categoria } from '../models/Categoria';
 const httpoptions = {
 
   headers : new HttpHeaders({
-    'Context-Type' : 'application/json'
+    'Content-Type' : 'application/json'
   })
 };
 
@@ -39,10 +39,12 @@ export class CategoriasService {
   }
 
 
-  AtualizarCategoria(categoriaId : number,categoria: Categoria): Observable<any>{
+  AtualizarCategoria(categoriaId : number,
+                     categoria: Categoria
+                    ): Observable<any>{
 
     const apiurl = `${this.url}/${categoriaId}`;
-    return this.http.put<Categoria>(apiurl, Categoria, httpoptions);
+    return this.http.put<Categoria>(apiurl, categoria, httpoptions);
 
   }
 
