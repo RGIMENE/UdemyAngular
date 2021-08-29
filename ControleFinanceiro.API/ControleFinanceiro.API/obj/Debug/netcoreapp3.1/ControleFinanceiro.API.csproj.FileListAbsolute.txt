@@ -190,3 +190,4 @@ C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.API\ControleFinanceiro.
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\netcoreapp3.1\ControleFinanceiro.API.dll
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\netcoreapp3.1\ControleFinanceiro.API.pdb
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\netcoreapp3.1\ControleFinanceiro.API.genruntimeconfig.cache
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.API\ControleFinanceiro.API\obj\Debug\netcoreapp3.1\ControleFinanceiro.API.GeneratedMSBuildEditorConfig.editorconfig

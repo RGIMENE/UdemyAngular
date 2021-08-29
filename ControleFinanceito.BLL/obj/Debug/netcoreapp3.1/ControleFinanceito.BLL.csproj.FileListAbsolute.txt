@@ -7,3 +7,4 @@ C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreap
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.csproj.CoreCompileInputs.cache
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.dll
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.pdb
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceito.BLL\obj\Debug\netcoreapp3.1\ControleFinanceito.BLL.GeneratedMSBuildEditorConfig.editorconfig

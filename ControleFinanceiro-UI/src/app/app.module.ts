@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -29,9 +30,9 @@ import { NovaCategoriaComponent } from './components/Categoria/nova-categoria/no
 import { ListagemCategoriasComponent, DialogExclusaoCategoriasComponent } from './components/Categoria/listagem-categorias/listagem-categorias.component';
 import { AtualizarCategoriaComponent } from './components/Categoria/atualizar-categoria/atualizar-categoria.component';
 
-
 import { TiposService } from '../app/services/tipos.service';
 
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { TiposService } from '../app/services/tipos.service';
     MatIconModule,
     MatButtonModule,
     ReactiveFormsModule,
+    FormsModule,
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
@@ -57,6 +59,7 @@ import { TiposService } from '../app/services/tipos.service';
     MatSelectModule,
     MatGridListModule,
     MatDialogModule,
+    MatAutocompleteModule,
   ],
   providers: [
     TiposService,

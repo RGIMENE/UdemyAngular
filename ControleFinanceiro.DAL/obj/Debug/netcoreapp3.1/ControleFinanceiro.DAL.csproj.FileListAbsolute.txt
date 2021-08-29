@@ -13,3 +13,4 @@ C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.DAL\obj\Debug\netcoreap
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.dll
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.pdb
 C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.genruntimeconfig.cache
+C:\Users\rga_a\Documents\UdemyAngular\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.GeneratedMSBuildEditorConfig.editorconfig
